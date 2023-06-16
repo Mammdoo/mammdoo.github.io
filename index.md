@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: home
+nav_order: 1
 ---
 
 专注DevOps, SRE领域，助力服务快速交付

@@ -1,8 +1,36 @@
 title: Mammdoo
 description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
+repository: Mammmdoo/mammdoo.github.io
 
 url: https://mammdoo.studio/
 
 aux_links:
   Follow me: https://github.com/Mammdoo/
+
+nav_sort: case_insensitive
+
+exclude:
+   - .sass-cache/
+   - .jekyll-cache/
+   - gemfiles/
+   - Gemfile
+   - Gemfile.lock
+   - node_modules/
+   - vendor/bundle/
+   - vendor/cache/
+   - vendor/gems/
+   - vendor/ruby/
+   - bin/
+   - lib/
+   - "*.gemspec"
+   - "*.gem"
+   - LICENSE.txt
+   - package.json
+   - package-lock.json
+   - Rakefile
+   - README.md
+   - CODE_OF_CONDUCT.md
+   - docker-compose.yml
+   - Dockerfile
+   - fixtures/
